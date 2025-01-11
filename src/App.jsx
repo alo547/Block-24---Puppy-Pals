@@ -16,7 +16,7 @@ function App() {
         })
     }
     {featPupId && (
-        <div>
+        <div className = "containerWidth">
           <h2 className = "featureHeader">{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
